@@ -24,7 +24,7 @@ function displayClock() {
 }
 
 
-  else if(hour>12 && hour<16){
+  else if(hour>=12 && hour<16){
   document.getElementById("pic").setAttribute("src","eve.png") 
   document.getElementById("grab").innerText ="GOOD AFTERNOON !! TAKE SOME SLEEP";
   document.getElementById("goodMorning").innerText =
@@ -41,15 +41,21 @@ else if(hour>=16 && hour <21){
 }
 
 else if(hour>=21){
-  "CLOSE YOUR EYES AND GO TO SLEEP";
+  
   document.getElementById("pic").setAttribute("src","night.png")
   document.getElementById("goodMorning").innerText =
+  "GOOD NIGHT";
+  document.getElementById("goodMorning").innerText =
+
   "CLOSE YOUR EYES AND GO TO SLEEP";
 }
 else{
-  "CLOSE YOUR EYES AND GO TO SLEEP";
+  
   document.getElementById("pic").setAttribute("src","night.png")
   document.getElementById("goodMorning").innerText =
+  "GOOD NIGHT";
+  document.getElementById("goodMorning").innerText =
+
   "CLOSE YOUR EYES AND GO TO SLEEP";
 }
 
