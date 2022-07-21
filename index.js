@@ -43,7 +43,7 @@ else if(hour>=16 && hour <21){
 else if(hour>=21){
   
   document.getElementById("pic").setAttribute("src","night.png")
-  document.getElementById("goodMorning").innerText =
+  document.getElementById("grab").innerText =
   "GOOD NIGHT";
   document.getElementById("goodMorning").innerText =
 
@@ -52,7 +52,7 @@ else if(hour>=21){
 else{
   
   document.getElementById("pic").setAttribute("src","night.png")
-  document.getElementById("goodMorning").innerText =
+  document.getElementById("grab").innerText =
   "GOOD NIGHT";
   document.getElementById("goodMorning").innerText =
 
